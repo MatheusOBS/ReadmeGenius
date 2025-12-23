@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Layout } from "./components/Layout";
-import { ReadmeEditor } from "./components/ReadmeEditor";
-import { confetti } from "canvas-confetti";
+import { Layout } from "./Layout";
+import { ReadmeEditor } from "./ReadmeEditor";
+import confetti from "canvas-confetti";
 import toast, { Toaster } from "react-hot-toast";
 
 const App = () => {
