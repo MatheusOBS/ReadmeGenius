@@ -7,6 +7,9 @@ export interface FormData {
   installation: string;
   usage: string;
   license: string;
-  tone: 'professional' | 'creative' | 'minimalist' | 'academic';
-  template: 'standard' | 'minimal' | 'enterprise' | 'hacker';
+  tone: "professional" | "creative" | "minimalist" | "academic";
+  template: "standard" | "minimal" | "enterprise" | "hacker";
+  language: string;
+  logoUrl?: string;
+  socialLinks?: string;
 }
