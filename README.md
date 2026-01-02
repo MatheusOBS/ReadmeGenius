@@ -42,7 +42,7 @@ Desenvolvido com foco na experiência do desenvolvedor, apresenta uma interface 
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/saah/readmegenius.git
+    git clone https://github.com/MatheusOBS/ReadmeGenius.git
     ```
 2.  Install dependencies:
     ```bash
@@ -50,7 +50,7 @@ Desenvolvido com foco na experiência do desenvolvedor, apresenta uma interface 
     ```
 3.  Set up environment variables (`.env`):
     ```env
-    VITE_API_KEY=sua_chave_aqui
+    VITE_API_KEY=your_api_key_here
     VITE_SUPABASE_URL=your_supabase_url
     VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
     ```
